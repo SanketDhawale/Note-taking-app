@@ -1,0 +1,35 @@
+/* App.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+}
+
+/* App container */
+.App {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 300px;
+  background-color: white;
+  color: #934c4c;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Content styles */
+.content {
+  flex: 1;
+  padding: 20px;
+  /* Add these styles to make the note area scrollable */
+  overflow-y: auto; /* Add a vertical scrollbar when content exceeds the height */
+  max-height: 100vh; /* You can adjust this max-height as needed */
+}

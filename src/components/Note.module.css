@@ -1,0 +1,12 @@
+.note{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 40px;
+}
+.note_timestamp{
+    width: 30%;
+}
+.note_text{
+    width: 70%;
+}
