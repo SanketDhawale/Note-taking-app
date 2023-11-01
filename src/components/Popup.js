@@ -42,9 +42,9 @@ function Popup({ createGroup, setShowPopup }) {
     <div className={styles.popup}>
       <div className={styles.popupBackdrop}>
         <div className={styles.popupContent} ref={popupRef}>
-          <span className={styles.close} onClick={() => setShowPopup(false)}>
+          {/* <span className={styles.close} onClick={() => setShowPopup(false)}>
             &times;
-          </span>
+          </span> */}
           <h2>Create new notes Group</h2>
           <span>Group name:</span>
           <input

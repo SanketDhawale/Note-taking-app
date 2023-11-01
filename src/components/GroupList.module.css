@@ -43,9 +43,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%; /* Make it circular */
-    color: white; /* Text color */
-    background-color: var(--group-color); /* Apply background color here */
+    border-radius: 50%; 
+    color: white; 
     font-weight: bold;
   }
   

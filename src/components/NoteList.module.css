@@ -2,30 +2,23 @@
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 .noteList {
   background-color: bisque;
   padding: 10px;
+  height: 100vh;
 }
 
-/* .noteListTitle {
-  font-size: 20px;
-  margin: 0 0 10px;
-  width: 100%;
-  padding: 15px 15px;
-  height: 30px;
-  background-color: #E8E8E8;
-} */
 .groupIcon {
   width: 40px;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%; /* Make it circular */
-  color: white; /* Text color */
-  background-color: var(--group-color); /* Apply background color here */
+  border-radius: 50%; 
+  color: white; 
   font-weight: bold;
   margin: 10px 10px;
   
@@ -47,7 +40,7 @@ body {
   padding: 5px;
   background: transparent;
   font-size: 16px;
-  outline: none; /* Remove the default input focus outline */
+  outline: none; 
 }
 
 .createButton {
@@ -75,7 +68,7 @@ body {
 
 .noteInputContainer {
   display: flex;
-  align-items: center; /* Center items vertically */
+  align-items: center; 
   width: 100%;
   border: 2px solid #007bff;
   border-radius: 5px;
@@ -87,7 +80,7 @@ body {
 .noteInputWrapper {
   flex-grow: 1;
   display: flex;
-  align-items: center; /* Center items vertically within the input wrapper */
+  align-items: center; 
   border: none;
 }
 
@@ -97,7 +90,7 @@ body {
   padding: 5px;
   background: transparent;
   font-size: 16px;
-  outline: none; /* Remove the default input focus outline */
+  outline: none; 
 }
 
 .createButton {
