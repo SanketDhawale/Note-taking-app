@@ -63,6 +63,7 @@ function NoteList({ selectedGroup, notes, createNote }) {
           <img src={NoteImage}  alt="Welcome Image" />
           <h3>Pocket Notes</h3>
           <p>Send and receive messages without keeping your phone online.<br/> Use Pocket Notes on up to 4 linked devices and 1 mobile phone</p>
+          <div className="bottom-line">&#x1F512;end-to-end encrypted</div> {/* Add the line at the bottom */}
         </div>
       )}
     </div>

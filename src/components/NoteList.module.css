@@ -105,6 +105,9 @@ body {
   color: #0056b3;
   cursor: pointer;
 }
+.bottom-line{
+  margin-top: 50px;
+}
 .welcomeMessage {
   display: flex;
   flex-direction: column;
