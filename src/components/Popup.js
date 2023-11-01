@@ -46,14 +46,16 @@ function Popup({ createGroup, setShowPopup }) {
             &times;
           </span> */}
           <h2>Create new notes Group</h2>
-          <span>Group name:</span>
-          <input
-            type="text"
-            placeholder="Group Name"
-            value={groupName}
-            onChange={handleGroupNameChange}
-            className={styles.groupNameInput}
+          <div className={styles.nameSelector}>
+            <span>Group name:</span>
+            <input
+              type="text"
+              placeholder="Group Name"
+              value={groupName}
+              onChange={handleGroupNameChange}
+              className={styles.groupNameInput}
           />
+          </div>
           <div className={styles.colorPicker}>
             <span>Choose a Color:</span>
             <div className={styles.colorButtons}>

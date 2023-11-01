@@ -36,11 +36,22 @@
 }
 
 .groupNameInput {
-  width: 100%;
+  width: 70%;
   padding: 10px;
   margin: 10px 0;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 15px;
+}
+.nameSelector{
+  display: flex;
+  flex-direction: row;
+}
+.nameSelector span{
+  margin-top: 20px;
+  width: 30%;
+}
+.colorPicker span{
+  margin-top: 10px;
 }
 
 .colorPicker {
@@ -69,12 +80,14 @@ button {
 
 .createGroupButton {
   padding: 10px 20px;
-  background: #007bff;
+  background: black;
   color: #fff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   width: 80px;
+  margin-left: 80%;
+  margin-top: 10px;
 }
 
 .createGroupButton:hover {
